@@ -40,6 +40,6 @@ jobs:
           #source Parameter.txt
           #docker pull hashicorp/terraform
           docker ps
-          docker images
+          #docker images
           docker run -i -t -v $PWD:$PWD -w $PWD docker.io/hashicorp/terraform version
 
