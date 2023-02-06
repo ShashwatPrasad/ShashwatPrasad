@@ -1,14 +1,14 @@
 
 # This is a basic workflow to help you get started with Actions
 
-name: Terraform_WF
+name: SQL_Workflow
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     paths:
-    - '.github/workflow/TF_Pipeline'
+    - 'Parameter.txt'
   pull_request:
     branches: [ main ]
     
